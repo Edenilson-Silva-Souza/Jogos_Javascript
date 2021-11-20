@@ -1,0 +1,30 @@
+body{
+	color:white;
+background:#444;
+}
+h2{
+	background:#0a0;
+	height:1.5em;
+	color:#fff;
+	text-shadow:2px 3px 4px #000;
+}
+#drawGame{
+	background-image:url('img/Space.png');
+	/* border:1px solid black; */
+}
+
+div{
+	/* background:#874; */
+	background:#000;
+
+}
+#t{
+		border-bottom:5px solid green;
+}
+
+button{
+	border-radius:14%;
+}
+input{
+	text-align:center;
+}

@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Jogo da velha</title>
+<link rel="stylesheet" href="estilo.css">
+
+<!-- <script type="text/javascript" src="controls.js"> -->
+<script type="text/javascript" src="motor.js">
+</script>
+</head>
+<body onkeypress="teclas();">
+	
+	
+	<div align="center">
+	<h2>Jogo Ping Pong</h2>
+	<!-- <button onclick="drawObs()">Lançar bola</button> -->
+			<button onclick="historic()">Histórico</button>
+	<button onclick="restart()">Novo jogo</button>
+	<button onclick="drawObs()">Carregar Jogo</button>
+	<button onclick="acionador()">Pausar/Jogar</button>
+	</div>
+	<div align="center" id="t">
+
+	<br>
+		<canvas id="drawGame" width="900" height="450">Seu navegador não Suporta tag Canvas</canvas>
+		<br>
+		Meus Pontos:<input id="Person1" value="0" size="2">
+		Pontos Adversário:<input id="Person2" value="0" size="2">
+		
+		
+		<audio src="sound-pong.mp3" id="pongSound"></audio>
+		<audio src="ponto.mp3" id="pontoSound"></audio>
+		
+	
+	</div>
+</body>
+</html>
